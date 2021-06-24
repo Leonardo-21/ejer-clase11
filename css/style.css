@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #222222;
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pza {
+    width: 234px;
+    height: 80px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.l1 {
+    margin: 5px;
+    color: white;
+}
+
+section {
+    display: flex;
+    width: 1024px;
+    height: 448px;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    width: 490px;
+    height: 350px;
+}
+
+.envio {
+    background-image: url('/img/banner.jpeg');
+    text-align: left;
+    color: red;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+span {
+    color: white;
+}
+
+.pedido {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+
+.ped-h {
+    width: 490px;
+    height: 138px;
+    text-align: center;
+    padding-top: 40px;
+    color: red;
+}
+
+strong {
+    font-size: 25px;
+}
+
+.l2 {
+    padding: 6px;
+}
+
+.ingredientes {
+    width: 92px;
+    height: 129px;
+}
+
+footer {
+    width: 1024px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    padding-left: 40px;
+    align-items: center;
+    color: white;
+}
+
+.nav-foot {
+    list-style-type: none;
+}
+
+.img-pie {
+    padding-right: 20px;
+}
