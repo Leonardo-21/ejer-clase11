@@ -65,7 +65,7 @@ section {
 }
 
 .envio {
-    background-image: url('/img/banner.jpeg');
+    background-image: url('img/banner.jpeg');
     text-align: left;
     color: red;
     font-weight: bold;
